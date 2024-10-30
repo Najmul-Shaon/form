@@ -1,4 +1,11 @@
-const FormalForm = () => {
+const StatefulForm = () => {
+
+    
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("sub");
+  };
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -12,4 +19,4 @@ const FormalForm = () => {
   );
 };
 
-export default FormalForm;
+export default StatefulForm;
